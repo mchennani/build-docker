@@ -1,0 +1,4 @@
+FROM nginx:latest
+RUN sed -i 's/nginx/Mohamed/g' /usr/share/nginx/htm/index.html
+EXPOSE 80
+
